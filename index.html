@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Animate On Scroll</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1><span>Animate on Scroll</span> Gallery</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, optio.</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="https://source.unsplash.com/user/pawel_czerwinski/500x500" alt="">
+            <div>
+                <h3>Animate Gallery One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia quasi aliquam eaque asperiores
+                    fuga mollitia enim inventore, voluptate provident nostrum maiores eos veniam obcaecati hic at
+                    exercitationem iste incidunt.</p>
+                <a class="btn" href="#">Read more about the artist</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="https://source.unsplash.com/user/pawel_czerwinski/500x500" alt="">
+            <div>
+                <h3>Animate Gallery Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia quasi aliquam eaque asperiores
+                    fuga mollitia enim inventore, voluptate provident nostrum maiores eos veniam obcaecati hic at
+                    exercitationem iste incidunt.</p>
+                <a class="btn" href="#">Read more about the artist</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="https://source.unsplash.com/user/pawel_czerwinski/500x500" alt="">
+            <div>
+                <h3>Animate Gallery Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia quasi aliquam eaque asperiores
+                    fuga mollitia enim inventore, voluptate provident nostrum maiores eos veniam obcaecati hic at
+                    exercitationem iste incidunt.</p>
+                <a class="btn" href="#">Read more about the artist</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="https://source.unsplash.com/user/pawel_czerwinski/500x500" alt="">
+            <div>
+                <h3>Animate Gallery Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia quasi aliquam eaque asperiores
+                    fuga mollitia enim inventore, voluptate provident nostrum maiores eos veniam obcaecati hic at
+                    exercitationem iste incidunt.</p>
+                <a class="btn" href="#">Read more about the artist</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="https://source.unsplash.com/user/pawel_czerwinski/500x500" alt="">
+            <div>
+                <h3>Animate Gallery Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia quasi aliquam eaque asperiores
+                    fuga mollitia enim inventore, voluptate provident nostrum maiores eos veniam obcaecati hic at
+                    exercitationem iste incidunt.</p>
+                <a class="btn" href="#">Read more about the artist</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
